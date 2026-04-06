@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Website</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            line-height: 1.6;
+        }
+
+        /* Navbar */
+        header {
+            background: #333;
+            color: #fff;
+            padding: 15px 0;
+        }
+
+        .container {
+            width: 90%;
+            margin: auto;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        nav h1 {
+            font-size: 24px;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+        }
+
+        nav ul li {
+            margin-left: 20px;
+        }
+
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            transition: 0.3s;
+        }
+
+        nav ul li a:hover {
+            color: #f4b400;
+        }
+
+        /* Hero Section */
+        .hero {
+            background: linear-gradient(to right, #4facfe, #00f2fe);
+            color: white;
+            height: 80vh;
+            display: flex;
+            align-items: center;
+            text-align: center;
+        }
+
+        .hero h2 {
+            font-size: 40px;
+        }
+
+        .hero p {
+            margin: 20px 0;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 10px 20px;
+            background: #fff;
+            color: #333;
+            border-radius: 5px;
+            text-decoration: none;
+        }
+
+        /* Features */
+        .features {
+            padding: 40px 0;
+            background: #f4f4f4;
+        }
+
+        .grid {
+            display: flex;
+            gap: 20px;
+        }
+
+        .card {
+            background: #fff;
+            padding: 20px;
+            flex: 1;
+            text-align: center;
+            border-radius: 10px;
+        }
+
+        /* Footer */
+        footer {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 15px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navbar -->
+    <header>
+        <div class="container">
+            <nav>
+                <h1>MySite</h1>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <h2>Welcome to My Website</h2>
+            <p>Create modern websites easily using HTML & CSS</p>
+            <a href="#" class="btn">Get Started</a>
+        </div>
+    </section>
+
+    <!-- Features -->
+    <section class="features">
+        <div class="container">
+            <div class="grid">
+                <div class="card">
+                    <h3>Fast</h3>
+                    <p>Optimized and lightweight design.</p>
+                </div>
+                <div class="card">
+                    <h3>Responsive</h3>
+                    <p>Works on mobile, tablet, and desktop.</p>
+                </div>
+                <div class="card">
+                    <h3>Easy</h3>
+                    <p>Simple and beginner-friendly code.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2026 My Website | All Rights Reserved</p>
+    </footer>
+
+</body>
+</html>
